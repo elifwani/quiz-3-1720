@@ -20,7 +20,12 @@
         	arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
         	renderer="antialias: true; alpha: true">
 		
-		<!-- we dont have camera, assets, items, etc. in here yet -->
+			<a-entity gltf-model="#animated-test" 
+			rotation="0 180 0" scale="0.15 0.15 0.15"
+			gps-entity-place="longitude: -79.40764149046214; latitude: 43.633870373901914;" 
+			animation-mixer="loop: repeat"/>
+	
+	  		<a-camera gps-camera rotation-reader></a-camera>
 
 		</a-scene>
 	</body>
