@@ -37,4 +37,17 @@ function render() {
 
     scene.appendChild(model); // add the model to the scene
   });
+
 }
+
+/*
+  This script uses objects to define various variables to use in different instances, to do some action or define attributes (objects are defined by const or let)
+  Model's scale and rotation can be changed in lines 9 and 10 when defining the model variable
+  
+  To add more models add url, scale, and rotation methods after line 11, as a new array object
+
+  Add a listener to the position function model.addEventListener
+
+  To add a button add a button constant, edit the button's html text in window.onload method
+  + add a div class with a button tag in index.html
+*/
