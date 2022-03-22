@@ -10,8 +10,8 @@ function staticLoadPlaces() {
         {
             name: 'MyModel', // returns name of the model
             location: { // location method, returns coordinates of the desired place
-                lat: 43.77236620318983, // latitude of the location
-                lng: -79.50556194953222, // longitude of the location
+                lat: 43.772214, // latitude of the location
+                lng: -79.505451, // longitude of the location
             }
         },
     ];
