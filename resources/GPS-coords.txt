@@ -1,3 +1,0 @@
-longitude: -79.505451
-latitude: 43.772214
-altitude: 188 meters
